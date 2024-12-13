@@ -19,7 +19,7 @@ fetch('https://www.mediamarkt.hu/webapp/wcs/stores/servlet/MultiChannelMAMasterD
 
     // Étape 2 : Générer l'email dynamique
     let randomNumber = Math.floor(100000 + Math.random() * 900000);
-    let email = `prozoihacoullu-9048%2b${randomNumber}@yopmail.com`;
+    let email = `grabisch@mediamarktsaturn.com`;
 
     // Étape 3 : Envoyer la requête POST avec le `authToken`
     return fetch('https://www.mediamarkt.hu/webapp/wcs/stores/servlet/MultiChannelMAMasterDataUpdate', {
